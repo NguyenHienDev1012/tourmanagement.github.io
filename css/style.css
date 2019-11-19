@@ -1061,3 +1061,23 @@ a {
 .form-field .form-control{
   padding-left: 20px;
 }
+.card {
+  margin-top: 20px;
+}
+.card-salesoff{
+  display: flex;
+
+}
+.card.sales2{
+  margin-left:10px;
+}
+.sales-text{
+  background: #f89d13;
+  display: flex;
+  justify-content: center;
+  height: 25px;
+ 
+}
+.sales-text p{
+  color: white ;
+}
