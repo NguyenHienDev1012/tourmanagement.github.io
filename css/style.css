@@ -1081,3 +1081,30 @@ a {
 .sales-text p{
   color: white ;
 }
+.input-form {
+  background-color: #E0E0E0;
+  height: 45px;
+  border-radius: 5px;
+  width: 100%;
+  border-style: none;
+  margin-top: -20px;
+}
+.button {
+  padding: auto;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+  background-color: #E0E0E0;
+  border-radius: 5px;
+  height: 50px;
+  border-color: #f89d13;
+  border-style: solid;
+  width: 120px;
+}
+.button:hover {background-color: #f89d13}
+
+.button:active {
+  background-color: #f89d13;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
