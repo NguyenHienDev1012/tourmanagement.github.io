@@ -87,66 +87,69 @@
       data-stellar-background-ratio="0.5">
     </div>
   </div>  
-  <div class="location-from">
-    <form action="#" class="search-destination">
-      <div class="row">
-        <div class="col-md align-items-end">
-          <div class="form-group">
-            <label for="#">Tìm tour</label>
-            <div class="form-field">
-              <div class="icon"><span class="icon-map-marker"></span></div>
-              <input type="text" class="form-control" placeholder=" Nhập tìm kiếm tour">
+  <div class="location-from" style="margin-top: 10px">
+      <form action="#" class="search-destination">
+        <div class="row">
+          <div class="col-md align-items-end">
+            <div class="form-group">
+              <label for="#">Tìm tour</label>
+              <div class="form-field">
+                <div class="icon"><span class="icon-map-marker"></span></div>
+                <input type="text" class="form-control" placeholder=" Nhập tìm kiếm tour">
+              </div>
+            </div>
+          </div>
+          <div class="col-md align-items-end">
+            <div class="form-group">
+              <label for="#">Từ ngày </label>
+              <div class="form-field">
+                <div class="icon"><span><img src="images/calender.png" width="18px"></span></div>
+                <input type="text" class="form-control checkin_date" placeholder=" Chọn ngày đi">
+              </div>
+            </div>
+          </div>
+          <div class="col-md align-items-end">
+            <div class="form-group">
+              <label for="#">Đến ngày</label>
+              <div class="form-field">
+                <div class="icon"><span><img src="images/calender.png" width="18px"></span></div>
+                <input type="text" class="form-control checkout_date" placeholder=" Chọn ngày đến">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="#">Chọn tour</label>
+              <div class="form-field">
+                <i class="icon icon-arrow-down3"></i>
+                <select name="people" id="people" class="form-control">
+                  <option value="#">Trong nước</option>
+                  <option value="#">Ngoài nước</option>
+                  <option value="#">Tất cả</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-md align-self-end">
+            <div class="form-group">
+              <div class="form-field">
+                <img src="images/searchTour.png" style="position: absolute;margin-left: 10px;
+                height: 30px;margin-top: 10px;">
+                <input type="submit" class="form-control checkout_date"
+                 value="Tìm kiếm" style="background-color: #f89d13;color: #fff;">
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md align-items-end">
-          <div class="form-group">
-            <label for="#">Từ ngày </label>
-            <div class="form-field">
-              <div class="icon"><span><img src="images/calender.png" width="18px"></span></div>
-              <input type="text" class="form-control checkin_date" placeholder=" Chọn ngày đi">
-            </div>
-          </div>
-        </div>
-        <div class="col-md align-items-end">
-          <div class="form-group">
-            <label for="#">Đến ngày</label>
-            <div class="form-field">
-              <div class="icon"><span><img src="images/calender.png" width="18px"></span></div>
-              <input type="text" class="form-control checkout_date" placeholder=" Chọn ngày đến">
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <label for="#">Chọn tour</label>
-            <div class="form-field">
-              <i class="icon icon-arrow-down3"></i>
-              <select name="people" id="people" class="form-control">
-                <option value="#">Trong nước</option>
-                <option value="#">Ngoài nước</option>
-                <option value="#">Tất cả</option>
-              </select>
-            </div>
-          </div>
-        </div>
-        <div class="col-md align-self-end">
-          <div class="form-group">
-            <div class="form-field">
-              <input type="submit" value="Tìm kiếm" class="form-control-date btn btn-primary">
-            </div>
-          </div>
-        </div>
-      </div>
-    </form>
-  </div>
+      </form>
+    </div>
 
   
 
   <div class="site-section" >
     <div class="container">
              <h4 style="margin-top: 0px">Tour khuyến mãi</h4>
-      <div class="card-salesoff">
+      <div class="card-salesoff" style="margin-top: -20px;">
         <div class="card sales" style="width:400px;height:500px">
 
             <a href="booking.html"><img class="card-img-top" height="250px" src="images/intour1.jpg" alt="Card image"></a>
@@ -251,7 +254,7 @@
 
             <h4 style="margin-top: 5px">Tour yêu thích</h4>
 
-      <div class="card">
+      <div class="card" style="margin-top: 0px;">
         <div class="row ">
           <div class="col-md-4">
             <img src="images/intour6.jpg" class="w-100">
